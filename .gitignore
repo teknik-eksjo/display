@@ -1,0 +1,10 @@
+# Python generated files
+*.pyc
+__pycache__
+
+# Virtual environments
+venv
+
+# Settings file
+.env
+last

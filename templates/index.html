@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block container %}
+<h1>Push the button!</h1>
+
+{% if last_push %}
+<p><span id="time">{{ last_push }}</span> seconds since last push.</p>
+{% endif %}
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}
